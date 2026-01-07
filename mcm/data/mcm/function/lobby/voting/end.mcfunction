@@ -79,6 +79,10 @@ execute if entity @e[type=marker,tag=SelectedMap,tag=Gumdrop] run schedule funct
 execute if entity @e[type=marker,tag=SelectedMap,tag=Canyon] run schedule function mcm:maps/canyon/activate 1s
 #Stagnant Sanctuary (Sculk)
 execute if entity @e[type=marker,tag=SelectedMap,tag=Sculk] run schedule function mcm:maps/sculk/activate 1s
+#Cosmodrome
+execute if entity @e[type=marker,tag=SelectedMap,tag=Cosmodrome] run schedule function mcm:maps/cosmodrome/activate 1s
+#Luobo Placeholder
+execute if entity @e[type=marker,tag=SelectedMap,tag=Luobo_map_placeholder] run schedule function mcm:maps/luobo_map_placeholder/activate 1s
 
 #> Change gamestate to 0 (Players can now join, game has not started yet)
 bossbar remove lobbybar

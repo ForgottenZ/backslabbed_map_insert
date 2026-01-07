@@ -82,6 +82,8 @@ execute if score $selectedMap CmdData matches 9 run function mcm:maps/cabin/func
 execute if score $selectedMap CmdData matches 10 run function mcm:maps/gumdrop/functionality
 execute if score $selectedMap CmdData matches 11 run function mcm:maps/canyon/functionality
 execute if score $selectedMap CmdData matches 12 run function mcm:maps/sculk/functionality
+execute if score $selectedMap CmdData matches 13 run function mcm:maps/cosmodrome/functionality
+execute if score $selectedMap CmdData matches 14 run function mcm:maps/luobo_map_placeholder/functionality
 
 #> Allow spectating
 execute as @a[nbt={RootVehicle:{Entity:{Tags:["spectatorchair"]}}}] run function mcm:game/spectate
@@ -193,6 +195,8 @@ execute if predicate mcm:soundrng if score $selectedMap CmdData matches 9 run fu
 execute if predicate mcm:soundrng if score $selectedMap CmdData matches 10 run function mcm:maps/gumdrop/sound
 execute if predicate mcm:soundrng if score $selectedMap CmdData matches 11 run function mcm:maps/canyon/sound
 execute if predicate mcm:soundrng if score $selectedMap CmdData matches 12 run function mcm:maps/sculk/sound
+execute if predicate mcm:soundrng if score $selectedMap CmdData matches 13 run function mcm:maps/cosmodrome/sound
+execute if predicate mcm:soundrng if score $selectedMap CmdData matches 14 run function mcm:maps/luobo_map_placeholder/sound
 
 #> Clear spectator nausea
 execute as @a[tag=spectating] run effect clear @s nausea

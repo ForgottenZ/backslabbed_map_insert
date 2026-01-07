@@ -46,6 +46,14 @@ execute if entity @e[type=marker,tag=Cabin,tag=disabled] run tellraw @s [{"text"
 execute if entity @e[type=marker,tag=Gumdrop,tag=!disabled] run tellraw @s [{"text":"[✔]","color":"dark_green"}," ",{"text":"[✖]","color":"dark_gray","clickEvent":{"action":"run_command","value":"/function mcm:dev/toggle/gumdrop"},"hoverEvent":{"action":"show_text","contents":["Click to Disable"]}}, {"text":"  Gumdrop","color":"white"}]
 execute if entity @e[type=marker,tag=Gumdrop,tag=disabled] run tellraw @s [{"text":"[✔]","color":"dark_gray","clickEvent":{"action":"run_command","value":"/function mcm:dev/toggle/gumdrop"},"hoverEvent":{"action":"show_text","contents":["Click to Enable"]}}," ",{"text":"[✖]","color":"dark_red"}, {"text":"  Gumdrop","color":"white"}]
 
+#> Cosmodrome
+execute if entity @e[type=marker,tag=Cosmodrome,tag=!disabled] run tellraw @s [{"text":"[✔]","color":"dark_green"}," ",{"text":"[✖]","color":"dark_gray","clickEvent":{"action":"run_command","value":"/function mcm:dev/toggle/cosmodrome"},"hoverEvent":{"action":"show_text","contents":["Click to Disable"]}}, {"text":"  Cosmodrome","color":"white"}]
+execute if entity @e[type=marker,tag=Cosmodrome,tag=disabled] run tellraw @s [{"text":"[✔]","color":"dark_gray","clickEvent":{"action":"run_command","value":"/function mcm:dev/toggle/cosmodrome"},"hoverEvent":{"action":"show_text","contents":["Click to Enable"]}}," ",{"text":"[✖]","color":"dark_red"}, {"text":"  Cosmodrome","color":"white"}]
+
+#> Luobo Placeholder
+execute if entity @e[type=marker,tag=Luobo_map_placeholder,tag=!disabled] run tellraw @s [{"text":"[✔]","color":"dark_green"}," ",{"text":"[✖]","color":"dark_gray","clickEvent":{"action":"run_command","value":"/function mcm:dev/toggle/luobo_map_placeholder"},"hoverEvent":{"action":"show_text","contents":["Click to Disable"]}}, {"text":"  Luobo Placeholder","color":"white"}]
+execute if entity @e[type=marker,tag=Luobo_map_placeholder,tag=disabled] run tellraw @s [{"text":"[✔]","color":"dark_gray","clickEvent":{"action":"run_command","value":"/function mcm:dev/toggle/luobo_map_placeholder"},"hoverEvent":{"action":"show_text","contents":["Click to Enable"]}}," ",{"text":"[✖]","color":"dark_red"}, {"text":"  Luobo Placeholder","color":"white"}]
+
 #> Canyon?
 
 #> Sculk
