@@ -37,3 +37,5 @@ tellraw @s[scores={vote_map_id=9}] [{"text":"| ","color":"gray","bold":true}, {"
 tellraw @s[scores={vote_map_id=10}] [{"text":"| ","color":"gray","bold":true}, {"translate":"mcm.lobby.voted.for","color":"gray", "with": [{"translate":"mcm.gumdrop.name", "color":"green"}]}]
 tellraw @s[scores={vote_map_id=11}] [{"text":"| ","color":"gray","bold":true}, {"translate":"mcm.lobby.voted.for","color":"gray", "with": [{"translate":"mcm.canyon.name", "color":"green"}]}]
 tellraw @s[scores={vote_map_id=12}] [{"text":"| ","color":"gray","bold":true}, {"translate":"mcm.lobby.voted.for","color":"gray", "with": [{"translate":"mcm.sculk.name", "color":"green"}]}]
+tellraw @s[scores={vote_map_id=13}] [{"text":"| ","color":"gray","bold":true}, {"translate":"mcm.lobby.voted.for","color":"gray", "with": [{"text":"航天基地", "color":"green"}]}]
+tellraw @s[scores={vote_map_id=14}] [{"text":"| ","color":"gray","bold":true}, {"translate":"mcm.lobby.voted.for","color":"gray", "with": [{"text":"萝卜占位符", "color":"green"}]}]

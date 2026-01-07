@@ -8,8 +8,10 @@ function mcm:lobby/options/map_toggle/add_map {name:Airship, translate:"mcm.airs
 function mcm:lobby/options/map_toggle/add_map {name:Cabin, translate:"mcm.cabin.name"}
 function mcm:lobby/options/map_toggle/add_map {name:Canyon, translate:"mcm.canyon.name"}
 function mcm:lobby/options/map_toggle/add_map {name:Cyberpunk, translate:"mcm.cyberpunk.name"}
+function mcm:lobby/options/map_toggle/add_map {name:Cosmodrome, translate:"mcm.cosmodrome.name"}
 function mcm:lobby/options/map_toggle/add_map {name:Gumdrop, translate:"mcm.gumdrop.name"}
 function mcm:lobby/options/map_toggle/add_map {name:Industry, translate:"mcm.industry.name"}
+function mcm:lobby/options/map_toggle/add_map {name:Luobo_map_placeholder, translate:"mcm.luobo_map_placeholder.name"}
 function mcm:lobby/options/map_toggle/add_map {name:Launchpad, translate:"mcm.launchpad.name"}
 function mcm:lobby/options/map_toggle/add_map {name:Library, translate:"mcm.library.name"}
 function mcm:lobby/options/map_toggle/add_map {name:Riverboat, translate:"mcm.riverboat.name"}

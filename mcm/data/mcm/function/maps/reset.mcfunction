@@ -14,6 +14,8 @@ execute if score $selectedMap CmdData matches 9 run function mcm:maps/cabin/rese
 execute if score $selectedMap CmdData matches 10 run function mcm:maps/gumdrop/reset
 execute if score $selectedMap CmdData matches 11 run function mcm:maps/canyon/reset
 execute if score $selectedMap CmdData matches 12 run function mcm:maps/sculk/reset
+execute if score $selectedMap CmdData matches 13 run function mcm:maps/cosmodrome/reset
+execute if score $selectedMap CmdData matches 14 run function mcm:maps/luobo_map_placeholder/reset
 
 #> Unload correct map
 # Library
